@@ -1,0 +1,10 @@
+{
+  "name": "bitrise-step-github-installation-access-token",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Technology Studio",
+  "type": "module",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2"
+  }
+}
