@@ -8,7 +8,7 @@ app:
   # If you want to share this step into a StepLib
   - BITRISE_STEP_ID: github-installation-access-token
   - BITRISE_STEP_VERSION: "0.0.1"
-  - BITRISE_STEP_GIT_CLONE_URL: https://github.com/effektsvk/bitrise-step-github-installation-access-token.git
+  - BITRISE_STEP_GIT_CLONE_URL: https://github.com/technology-studio/bitrise-step-github-installation-access-token.git
   - MY_STEPLIB_REPO_FORK_GIT_URL: $MY_STEPLIB_REPO_FORK_GIT_URL
 
 workflows:
@@ -20,7 +20,7 @@ workflows:
         inputs:
           - APP_ID: 382135
           - PRIVATE_KEY: $GITHUB_APP_PRIVATE_KEY
-          - REPO_OWNER: effektsvk
+          - REPO_OWNER: technology-studio
           - REPO_SLUG: bitrise-test
 
   # ----------------------------------------------------------------

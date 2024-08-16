@@ -13,9 +13,9 @@ summary: |
   Generates access token for a GitHub app installation
 description: |
   Uses App ID and repository name to generate an access token for available installation
-website: https://github.com/effektsvk/bitrise-step-github-installation-access-token
-source_code_url: https://github.com/effektsvk/bitrise-step-github-installation-access-token
-support_url: https://github.com/effektsvk/bitrise-step-github-installation-access-token/issues
+website: https://github.com/technology-studio/bitrise-step-github-installation-access-token
+source_code_url: https://github.com/technology-studio/bitrise-step-github-installation-access-token
+support_url: https://github.com/technology-studio/bitrise-step-github-installation-access-token/issues
 
 # If this step should be available only for certain project types
 # just uncomment this `project_type_tags` section and include all the
