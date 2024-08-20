@@ -1,5 +1,5 @@
-const jwt = require('jsonwebtoken');
-const { execSync } = require('child_process');
+import jwt from 'jsonwebtoken'
+import { execSync } from 'child_process'
 
 const appId = process.env.APP_ID;
 const privateKey = process.env.PRIVATE_KEY;
